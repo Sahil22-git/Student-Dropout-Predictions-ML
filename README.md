@@ -1,6 +1,9 @@
 # Student Dropout Prediction Model
 
-This notebook predicts the likelihood of student dropout using machine learning.  
-It includes data preprocessing, feature selection, and a Decision Tree classifier.  
-Helps identify at-risk students early for better academic planning.  
-Built using Python, Pandas, Scikit-learn, and Jupyter Notebook.
+This project predicts whether a student is likely to drop out based on academic and personal factors.  
+I performed exploratory data analysis (EDA) to understand key patterns and relationships in the data, followed by feature engineering to improve model performance.  
+
+Multiple machine learning models were used — Decision Tree, Random Forest and XGBoost.
+A simple Gradio interface was also built so users can enter student details and get real-time dropout predictions.  
+
+The project is built using Python, Pandas, Numpy, MatplotLib, Scikit-learn, XGBoost and Jupyter Notebook.
